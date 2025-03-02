@@ -1,4 +1,45 @@
-# TestTask
+# Contacts List App
+
+
+## Get all contacts:
+
+![image](https://github.com/user-attachments/assets/bb5bfa87-a8ac-4356-b330-43db99ed7c3d)
+
+
+## Search contacts
+
+![image](https://github.com/user-attachments/assets/45ddb52f-885d-42a7-ad37-c8f35b1735e6)
+
+
+## Edit contact
+
+![image](https://github.com/user-attachments/assets/7871b7ca-b3c6-414a-9396-a98ba973e7ce)
+
+
+## Contact form validation
+
+![image](https://github.com/user-attachments/assets/c8418c8b-f571-480c-8f92-8fe26f24990e)
+
+
+## After adding a new contact
+
+![image](https://github.com/user-attachments/assets/ad6329df-e2b5-4669-a8c0-3dcb8c038570)
+
+## After deleting a contact
+
+![image](https://github.com/user-attachments/assets/4a7796b1-5e8d-4c6e-b104-5102db6ef983)
+
+
+## Contact info
+
+![image](https://github.com/user-attachments/assets/5e42afba-8bf6-4b61-b7fd-9332aba37544)
+
+
+
+
+
+
+
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.1.8.
 
