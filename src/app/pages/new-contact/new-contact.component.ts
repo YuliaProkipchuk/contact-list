@@ -14,7 +14,7 @@ export class NewContactComponent {
   newContactForm: FormGroup = new FormGroup({
     firstName: new FormControl("", [Validators.required]),
     lastName: new FormControl("", [Validators.required]),
-    phone: new FormControl("", [Validators.required]),
+    phone: new FormControl("", [Validators.required, Validators.pattern(/^\+?[1-9]\d{1,14}$/)]]),
     email: new FormControl("", [Validators.required, Validators.email]),
     birthday: new FormControl(""),
     image: new FormControl(""),
@@ -31,7 +31,7 @@ export class NewContactComponent {
   }
   onFileSelected(files: FileList | null) {
     if (files) {
-      var reader = new FileReader()
+      const reader = new FileReader()
       reader.readAsDataURL(files[0])
       reader.onload = (event: Event) => {
         let fileReader = event.target as FileReader
