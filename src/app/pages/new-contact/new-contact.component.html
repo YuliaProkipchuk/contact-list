@@ -1,3 +1,4 @@
+<h1 class="text-center py-3 text-[2.5rem]">New Contact</h1>
 <form [formGroup]="newContactForm" (ngSubmit)="addNewContact()" class="w-3/4 lg:w-1/2 2xl:w-[30%] mx-auto py-5">
     <div class="flex gap-5 items-center">
         <div class="w-[100px] h-[100px] rounded-full" (click)="focusInput(imgInput)">
@@ -99,7 +100,6 @@
         <div class="flex flex-col w-full sm:w-1/2">
             <label for="category">Group</label>
             <select formControlName="category" id="category" class="rounded border border-gray-400 py-1 px-3">
-                <option value="None">None</option>
                 <option value="Friends">Friends</option>
                 <option value="Work">Work</option>
                 <option value="Family">Family</option>
