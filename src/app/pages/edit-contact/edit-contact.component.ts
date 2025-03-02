@@ -64,7 +64,7 @@ export class EditContactComponent implements OnInit {
   }
   onFileSelected(files: FileList | null) {
     if (files) {
-        var reader = new FileReader()
+        const reader = new FileReader()
         reader.readAsDataURL(files[0])
         reader.onload = (event:Event) => {
           let fileReader = event.target as FileReader
