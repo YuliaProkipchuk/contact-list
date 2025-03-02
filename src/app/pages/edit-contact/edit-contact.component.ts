@@ -23,7 +23,7 @@ export class EditContactComponent implements OnInit {
     this.editContactForm = this.fb.group({
       firstName: ['', Validators.required],
       lastName: ['', Validators.required],
-      phone: ['', [Validators.required]],
+      phone: ['', [Validators.required, Validators.pattern(/^\+?[1-9]\d{1,14}$/)]]],
       email: ['', [Validators.required, Validators.email]],
       birthday: [''],
       image: [''],
